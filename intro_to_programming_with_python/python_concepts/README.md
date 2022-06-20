@@ -57,3 +57,6 @@ TODO
 
 ## Optimization
 TODO
+
+# TODO
+1. Put the solution code for each problem in its file (and each one with main so you can run it)
