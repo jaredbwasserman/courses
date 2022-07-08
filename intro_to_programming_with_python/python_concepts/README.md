@@ -21,7 +21,10 @@ a = 5
 print(a)
 ```
 
-Why does this print "5" rather than "a"? 
+Why does this print "5" rather than "a"?
+
+# Operators
+TODO
 
 # Lists
 TODO
@@ -30,6 +33,9 @@ TODO
 TODO
 
 # Loops
+TODO
+
+# Functions
 TODO
 
 # Exercises
