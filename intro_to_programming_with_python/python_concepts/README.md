@@ -28,6 +28,7 @@ If you want to check the value of a variable, you can print it out:
 ```python
 a = 5
 print(a)
+
 # 5
 ```
 
@@ -38,18 +39,26 @@ An example of an operator is `+`. You can add two numbers with `+`:
 ```python
 x = 5 + 5
 print(x)
+
 # 10
 ```
 
 There are a few operators related to division:
 ```python
 print(10 / 3)
+
 # 3.3333333333333335
+```
 
+```python
 print(10 // 3)
-# 3
 
+# 3
+```
+
+```python
 print(10 % 3)
+
 # 1
 ``` 
 
@@ -57,27 +66,38 @@ You can add strings together too:
 ```python
 foo = "Hello, " + "world!"
 print(foo)
+
 # Hello, world!
 ```
 
 # Lists
 Lists let you hold a collection of values in a variable:
 ```python
-mylist = [1, 2, 3]
+list1 = [1, 2, 3]
 ```
 
 You can access an element of a list with `[]`. Start from `0` (not `1`):
 ```python
-print(mylist[0])
+print(list1[0])
+
 # 1
+```
 
-print(mylist[1])
+```python
+print(list1[1])
+
 # 2
+```
 
-print(mylist[2])
+```python
+print(list1[2])
+
 # 3
+```
 
-print(mylist[3])
+```python
+print(list1[3])
+
 # ERROR!
 ```
 
@@ -87,6 +107,11 @@ Loops let you iterate over the elements of a list. For example:
 primes = [2, 3, 5, 7]
 for prime in primes:
     print(prime)
+
+# 2
+# 3
+# 5
+# 7
 ```
 
 The `prime` can be called anything. Think of it as a variable. Also, note that you must put a `:` at the end of the line.
@@ -95,9 +120,13 @@ The `prime` can be called anything. Think of it as a variable. Also, note that y
 Conditions are either `True` or `False`. For example:
 ```python
 print(5 == 5)
-# True
 
+# True
+```
+
+```python
 print(5 == 10)
+
 # False
 ```
 
@@ -111,6 +140,8 @@ if x == 5:
 
 if x == 10:
     print("x is 10")
+
+# x is 10
 ```
 
 You can use `else` to specify what to do if the condition is false:
@@ -120,6 +151,8 @@ if x == 5:
     print("x is 5")
 else:
     print("x is not 5")
+
+# x is not 5
 ```
 
 Note that you must put a `:` at the end of the line (similar to `for` loops).
